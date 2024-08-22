@@ -1,0 +1,40 @@
+/* Basic reset */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Full height layout with centered content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+a {
+    color: #0077cc;
+}
