@@ -1,40 +1,132 @@
-/* Basic reset */
 body, h1, p {
     margin: 0;
     padding: 0;
-}
-
-/* Full height layout with centered content */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
 }
 
 .container {
+    background-color: rgba(0, 0, 0, 0.8); /* Black with 50% opacity */
+    height: 100vh;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    padding-block: 10px;
+    display: flex;
+    /* background-color: #020535; */
+}
+
+.email {
+    width: 35px;
+    height: 30px;
+    padding-inline-end: 20px;
+}
+
+.emailContainer {
+    display: flex;
+    padding-block-start: 45px;
+    line-height: 29px;
+    color: #fff;
+}
+
+.emailText {
+    font-weight: 600;
+    font-size: 14px;
+    width: 200px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
     text-align: center;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.emailText:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.headerTitle {
+    color: #fff;
+    font-size: 40px;
+    padding-inline-start: 20px;
+    padding-block-start: 15px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .logo {
-    max-width: 200px;
-    height: auto;
+    width: 90px;
+    height: 90px;
+    padding-inline-start: 20px;;
 }
 
-h1 {
-    margin-top: 20px;
-    font-size: 2rem;
-    color: #333;
+.milogo {
+    width: 190px;
+    height: 50px;
+    padding-inline-start: 20px;
+    padding-block-start: 20px;
 }
 
-p {
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #666;
+#main {
+    padding-inline-start: 50px;
+    /* padding-block-start: 150px; */
+    width: 40%;
+    /* background-color: rgba(0, 0, 0, 0.3); Black with 50% opacity */
+    /* margin-block-start: 100px; */
+    padding-block: 200px;
 }
 
-a {
-    color: #0077cc;
+.almostReady {
+    font-size: 20px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding-inline-start: 5px;
+    padding-block-end: 10px;
+}
+
+.hrule
+{
+    width: 600px;
+    height: 4px;
+    background-color: #e3e562;
+    margin-block-start: 10px;
+}
+
+.comingSoon {
+    color: #fff;
+    font-size: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    width: 200px;
+    line-height: 90px;
+    padding-block-end: 10px;
+    text-align: center;
+}
+
+.missionStatement {
+    color: #fff;
+    font-size: 20px;
+    width: 600px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-block-start: 15px;
+    padding-inline-start: 5px;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire background */
+    z-index: -1; /* Places the video behind other content */
 }
