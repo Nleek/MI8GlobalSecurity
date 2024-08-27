@@ -14,7 +14,6 @@ body, h1, p {
     height: 80px;
     padding-block: 10px;
     display: flex;
-    /* background-color: #020535; */
 }
 
 .email {
@@ -75,10 +74,7 @@ body, h1, p {
 
 #main {
     padding-inline-start: 50px;
-    /* padding-block-start: 150px; */
     width: 40%;
-    /* background-color: rgba(0, 0, 0, 0.3); Black with 50% opacity */
-    /* margin-block-start: 100px; */
     padding-block: 200px;
 }
 
