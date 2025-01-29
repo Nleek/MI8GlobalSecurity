@@ -1,3 +1,8 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0;
+}
+
 /* Banner Section */
 .banner-section {
     display: flex;
@@ -84,7 +89,7 @@
 /* Services Section */
 .services-section {
     padding: 50px;
-    background-color: #f4f4f4;
+    background-color: #fff;
     color: #333;
 }
 
@@ -107,7 +112,7 @@
 /* Contact Section */
 .contact-section {
     padding: 50px;
-    background-color: #fff;
+    background-color: #f4f4f4;
     text-align: center;
     color: #333;
 }
@@ -160,3 +165,4 @@ footer {
         flex-direction: column; /* Stack links vertically */
     }
 }
+
