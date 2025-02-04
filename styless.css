@@ -48,25 +48,38 @@ body {
     color: #007BFF; /* Blue color on hover */
 }
 
-/* Hero Section */
+/* Hero Section - Full Screen Background */
 .hero-section {
-    padding: 50px;
-    background-color: #f4f4f4; /* Light background for contrast */
-    color: #333;
-    text-align: center; /* Center the content */
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('your-image.jpg') center/cover no-repeat; /* Replace with your actual image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.hero-section h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
+/* Overlay for better text readability */
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
 }
 
 .hero-section p {
-    font-size: 16px;
-    max-width: 600px;
-    margin: 0 auto; /* Center-align the paragraph */
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
 }
-
 /* Mission Section */
 .mission-section {
     padding: 50px;
